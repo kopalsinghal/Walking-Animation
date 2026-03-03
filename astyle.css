@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-image: url("Nobihouse.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+img{
+    height: 190px;
+    position: absolute;
+    bottom: 5px;
+    left: -300px;
+    animation: nobitaWalk 5s linear infinite;
+}
+@keyframes nobitaWalk {
+    from{ left: -300px;
+    }
+    to{
+        left: 400px;
+    }
+    
+}
